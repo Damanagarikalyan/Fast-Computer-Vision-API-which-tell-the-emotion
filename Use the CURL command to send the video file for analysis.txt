@@ -1,0 +1,3 @@
+curl -X POST "http://localhost:8000/analyze_emotion" -F "file=@path of the video file"
+
+Example : curl -X POST "http://localhost:8000/analyze_emotion" -F "file=@D:\videoplayback.mp4"
